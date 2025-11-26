@@ -1,5 +1,5 @@
-export * from './lib/generated/prisma/client';
-export * from './lib/generated/prisma/commonInputTypes';
-export * from './lib/generated/prisma/enums';
-export * from './lib/generated/prisma/models';
+export * from './generated/prisma/client';
+export * from './generated/prisma/commonInputTypes';
+export * from './generated/prisma/enums';
+export * from './generated/prisma/models';
 
