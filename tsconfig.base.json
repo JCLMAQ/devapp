@@ -19,7 +19,8 @@
     "target": "es2022",
     "customConditions": ["@devapp/source"],
     "paths": {
-      "@devapp/prisma": ["libs/prisma/src/index.ts"]
+      "@db/prisma": ["libs/prisma/src/index.ts"],
+      "be/prisma-client": ["libs//backend/prisma-client/src/index.ts"]
     }
   }
 }
