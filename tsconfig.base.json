@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "composite": true,
+    "baseUrl": ".",
     "declarationMap": true,
     "emitDeclarationOnly": true,
     "importHelpers": true,
@@ -16,6 +17,9 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@devapp/source"]
+    "customConditions": ["@devapp/source"],
+    "paths": {
+      "@devapp/prisma": ["libs/prisma/src/index.ts"]
+    }
   }
 }
